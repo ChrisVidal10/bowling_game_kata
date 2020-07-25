@@ -1,0 +1,5 @@
+# exclude everything except directory foo/bar
+/env/*
+/__pycache__/*
+/.pytest_cache
+    
