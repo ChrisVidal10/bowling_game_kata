@@ -1,3 +1,5 @@
+![Python application](https://github.com/ChrisVidal10/bowling_game_kata/workflows/Python%20application/badge.svg?branch=master)
+
 # Bowling Game Kata
 
 This repository is for the Bowling Game kata
