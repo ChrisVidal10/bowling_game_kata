@@ -44,3 +44,6 @@ coverage html
 
 ## Others
 You cand find this or others kata on https://kata-log.rocks/
+
+## CI Implementation
+For push anything to branch "master" or pull requests to branch "master" the GitHub Action will be activate.
