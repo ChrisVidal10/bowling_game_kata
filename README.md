@@ -1,5 +1,6 @@
 ![Python application](https://github.com/ChrisVidal10/bowling_game_kata/workflows/Python%20application/badge.svg?branch=master) 
 [![codecov](https://codecov.io/gh/ChrisVidal10/bowling_game_kata/branch/master/graph/badge.svg)](https://codecov.io/gh/ChrisVidal10/bowling_game_kata)
+[![Requirements Status](https://requires.io/github/ChrisVidal10/bowling_game_kata/requirements.svg?branch=master)](https://requires.io/github/ChrisVidal10/bowling_game_kata/requirements/?branch=master)
 
 # Bowling Game Kata
 
@@ -37,16 +38,18 @@ pytest -v
 
 ### Coverage
 ```
-coverage run -m pytest -v
+pytest --cov=./ tests/
 ```
 
 Then for html report run
 ```
-coverage html
+pytest --cov=./ --cov-report=html
 ```
 
-## Others
-You cand find this or others kata on https://kata-log.rocks/
+Open ./htmlcov/index.html in your favorite web explorer.
 
 ## CI Implementation
 For push anything to branch "master" or pull requests to branch "master" the GitHub Action will be activate.
+
+## Others
+You cand find this or others kata on https://kata-log.rocks/
