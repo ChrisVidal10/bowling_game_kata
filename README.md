@@ -40,7 +40,7 @@ pytest -v
 coverage run -m pytest -v
 ```
 
-Then for hmtl report run
+Then for html report run
 ```
 coverage html
 ```
