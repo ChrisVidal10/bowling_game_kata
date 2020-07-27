@@ -1,6 +1,7 @@
 ![Python application](https://github.com/ChrisVidal10/bowling_game_kata/workflows/Python%20application/badge.svg?branch=master) 
 [![codecov](https://codecov.io/gh/ChrisVidal10/bowling_game_kata/branch/master/graph/badge.svg)](https://codecov.io/gh/ChrisVidal10/bowling_game_kata)
 [![Requirements Status](https://requires.io/github/ChrisVidal10/bowling_game_kata/requirements.svg?branch=master)](https://requires.io/github/ChrisVidal10/bowling_game_kata/requirements/?branch=master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ChrisVidal10_bowling_game_kata&metric=alert_status)](https://sonarcloud.io/dashboard?id=ChrisVidal10_bowling_game_kata)
 
 # Bowling Game Kata
 
