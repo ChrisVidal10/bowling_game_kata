@@ -1,4 +1,5 @@
-![Python application](https://github.com/ChrisVidal10/bowling_game_kata/workflows/Python%20application/badge.svg?branch=master)
+![Python application](https://github.com/ChrisVidal10/bowling_game_kata/workflows/Python%20application/badge.svg?branch=master) 
+[![codecov](https://codecov.io/gh/ChrisVidal10/bowling_game_kata/branch/master/graph/badge.svg)](https://codecov.io/gh/ChrisVidal10/bowling_game_kata)
 
 # Bowling Game Kata
 
