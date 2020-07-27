@@ -33,10 +33,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest & coverage
       run: |
-        pytest --cov-report xml --cov=. tests/
+        pytest --cov-report= --cov=. tests/
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        path-to-lcov: .coverage.xml
+        path-to-lcov: .coverage
