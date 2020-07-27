@@ -42,7 +42,7 @@ class Game():
         """
         score = 0
         roll_index = 0
-        for frame in range(self.__frames):
+        for _ in range(self.__frames):
             if self.__is_strike(roll_index):
                 score += self.__strike_bonus(roll_index)
                 roll_index += 1

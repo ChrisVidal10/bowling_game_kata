@@ -19,7 +19,7 @@ class TestBowlingGame:
             pins (int): Pins knock down in frames,
             the same amount of pins in every frame.
         """
-        for i in range(frames):
+        for _ in range(frames):
             self.g.roll(pins)
 
     def test_gutter_game(self):
