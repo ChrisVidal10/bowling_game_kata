@@ -23,7 +23,6 @@ class Game():
         Construct the object Game
         """
         self.__rolls = list()
-        self.__current_roll = 0
 
     def roll(self, pins: int):
         """
