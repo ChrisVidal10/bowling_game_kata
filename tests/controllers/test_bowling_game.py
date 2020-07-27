@@ -1,5 +1,5 @@
 import pytest
-from controllers.game import Game
+from src.controllers.game import Game
 
 class TestBowlingGame:
 

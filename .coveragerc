@@ -1,0 +1,7 @@
+[coverage:report]
+include =
+    tests/*
+    src/*
+
+omit == 
+    */__init__.py
